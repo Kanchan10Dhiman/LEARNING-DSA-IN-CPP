@@ -12,7 +12,7 @@ int main(){
     
     return 0;
 }
-/* using while loop.
+/* using while
 int n;
     cin>>n;
     int i=1;
