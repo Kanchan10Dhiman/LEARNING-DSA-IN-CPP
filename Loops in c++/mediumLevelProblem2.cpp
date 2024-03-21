@@ -5,13 +5,20 @@ int main(){
     int n;
     cout<<"enter the value of n";
     cin>>n;
-    int i=1;
+    int i;
+    for(i=1;i<=n;i+=i)
+    cout<<i<<",";
+
+    return 0;
+
+}
+/*
+int i=1;
 
      do{
         cout<<i<<",";
         i=i+i;
     }
     while(i<n);
-    return 0;
-
-}
+*/
+    
