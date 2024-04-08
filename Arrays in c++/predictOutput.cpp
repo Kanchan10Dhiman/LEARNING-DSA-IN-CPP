@@ -9,6 +9,7 @@ for ( i = 0 ; i <= 48 ; i++ ) ;
 {
 sub[i] = i ;
 cout<<sub[i]<<endl ;
+
 }
 return 0;
 }
