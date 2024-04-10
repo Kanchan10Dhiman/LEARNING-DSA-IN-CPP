@@ -7,7 +7,7 @@ int main(){
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
             cin>>array1[i][j];
-        }
+        } 
     }
     cout<<"enter 2nd matrix";
     for(i=0;i<2;i++){
