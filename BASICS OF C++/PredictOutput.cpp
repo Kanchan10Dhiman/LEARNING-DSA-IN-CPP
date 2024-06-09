@@ -24,7 +24,7 @@ cout<<a<<endl;
  /*Q.How much space does the following data types take?
 int=4 bytes
 bool=1 byte
-float*/
+float=4 bytes*/
 
 /*QWhat is the output of this program?
 int main() {
