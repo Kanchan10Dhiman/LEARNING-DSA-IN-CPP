@@ -3,10 +3,9 @@
 using namespace std;
 int main(){
     //let sides of truangle a,b,c
-    float a=10,b=18,c=10;
-    //cin>>a;
-    //cin>>b;
-    ///cin>c;
+    float a,b,c;
+    cin>>a>>b>>c;
+    
     if(a==b && b==c){
         cout<<"Equilateral triangle";
     }
