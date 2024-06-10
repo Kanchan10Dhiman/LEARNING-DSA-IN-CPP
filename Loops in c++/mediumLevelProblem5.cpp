@@ -5,11 +5,7 @@ int main(){
     int n;
     cout<<"enter the value of n";
     cin>>n;
-    int i=3;
-    do{
+    for(int i=3;i<=n;i=i*4){
         cout<<i<<",";
-        i=i+i+i+i;
     }
-    while(i<=n);
-    return 0;
 }
