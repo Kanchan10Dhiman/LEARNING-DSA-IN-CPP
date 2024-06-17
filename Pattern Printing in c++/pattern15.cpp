@@ -1,20 +1,22 @@
 /*
-PRINT THE FLOYD TRIANGLE PATTERN
-1
-2 3
-4 5 6
-7 8 9 10
-*/
+Print the odd Number Triangle pattern
+1 
+1 3 
+1 3 5  
+1 3 5 7
+ */
 #include<iostream>
 using namespace std;
 int main(){
-    int a=1,i,j;
-   
+    int i,j,a;
     for(i=1;i<=4;i++){
+        a=1;
         for(j=1;j<=i;j++){
             cout<<a<<" ";
-            a+=1;
+            a=a+2;
         }
         cout<<endl;
     }
+    return 0;
 }
+
